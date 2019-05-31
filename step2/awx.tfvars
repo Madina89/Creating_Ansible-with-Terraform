@@ -1,0 +1,9 @@
+instance_type		=	"t2.medium"
+key_name		=	"app_keys"
+ami			=	"ami-0791c4a97b93a0141"    #Use Centos7  image
+vpc_id			=	"vpc-47cfd12f "
+user			=	"centos"
+ssh_key_location	=	"~/ssh_keys/app_keys"       #Import pub key pair to aws as "terraform"
+zone_id			=	"Z32OHGRMBVZ9LR"	   #Add hosted DNS zone ID here
+domain			=	"acirrustech.com"
+region = "us-east-2"
